@@ -1,0 +1,120 @@
+/* json-table-styles.css */
+
+.fa, .fas {
+    color: #D29F36;
+  }
+  /* Add CSS for mobile */
+  @media (max-width: 767px) {
+    /* Hide table headers on mobile */
+    table thead tr th {
+      display: none;
+    }
+  
+    /* Display table rows as blocks */
+    table tbody tr {
+      display: block;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+  
+    /* Display table cells as blocks */
+    table tbody td {
+      display: block;
+      padding: 8px;
+    }
+  
+    /* Add bottom border to table cells */
+    table tbody td {
+      border-bottom: 1px solid #ccc;
+    }
+  
+    /* Add some spacing between table cells */
+    table tbody td:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Add CSS for web */
+  @media (min-width: 768px) {
+    /* Make table responsive on web */
+    table {
+      max-width: 1000px;
+      border-collapse: collapse;
+      margin: 0 auto; 
+      text-align: left;
+    }
+  
+    /* Display table headers */
+    table thead tr th {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 8px;
+      font-weight: bold;
+      text-align: center;
+      background-color: #D29F36;
+      border: none;
+      
+    }
+  
+    /* Display table rows */
+    table tbody tr {
+      display: table-row;
+    }
+  
+    /* Display table cells */
+    table tbody td {
+      display: table-cell;
+      padding: 8px;
+      border: none;
+    }
+  
+    /* Add some spacing between table cells */
+    table tbody td:not(:last-child) {
+      border-right: none;
+    }
+  
+    #review{
+  
+      width: 220px;
+      text-align: center;
+    }
+  
+    #bonus{
+  
+      text-align: center;
+      width: 250px;
+    }
+    #divRating{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #play{
+  
+      text-align: center;
+      width: 250px;
+      font-size: small;
+    }
+  
+    #tableContainer{
+  
+      text-align: center;
+  
+    }
+    #playButton{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: green;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100px;
+  
+    }
+    #logo{
+      margin-bottom: 10px;
+  
+    }
+   
+  
+  }
